@@ -1,0 +1,1 @@
+ffmpeg -i T1_.mp4 -map 0:0 -vcodec mpeg4 -b 4000k -aspect 16:9 -map 0:1 -acodec ac3 -ab 320k T1.mp4
